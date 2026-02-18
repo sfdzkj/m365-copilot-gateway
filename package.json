@@ -1,0 +1,15 @@
+{
+  "name": "m365-copilot-openai-gateway",
+  "version": "1.0.4",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^2.16.2",
+    "express": "^4.19.2",
+    "express-session": "^1.17.3",
+    "ioredis": "^5.4.1"
+  }
+}
